@@ -4,6 +4,13 @@
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("The header setting is ok !");
+        Integer a = 10;
+        int b = 10;
+        if(a == b)
+            System.out.println("a == b");
+        if(a.equals(b))
+            System.out.println("a equals b");
+        System.out.println("Integer a = " + a);
+        System.out.println("int b = " + b);
     }
 }
