@@ -28,6 +28,6 @@ public class Cook {
                 }
             }
         }
-        System.out.println(results.size());
+        System.out.println(results);
     }
 }
