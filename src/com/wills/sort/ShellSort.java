@@ -6,7 +6,10 @@ package com.wills.sort;
 public class ShellSort {
     public static void main(String[] args) {
         int[] array = {5, 8, 1, 3, 4, 6, 7, 9, 4};
+        long start = System.currentTimeMillis();
         int[] a = shellSort(array);
+        long end = System.nanoTime();
+        System.out.println(end - start);
         for (int i : a) {
             System.out.print(i + " ");
         }
